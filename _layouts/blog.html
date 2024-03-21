@@ -7,17 +7,32 @@
       <section class="articles">
         {% for post in site.posts %}
         <article class="article">
-          <h2 class="article-title">
-            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
-          </h2>
-          <small class="date">{{post.date | date: "%b %Y"}}</small>
-          <div class="categories">
-            {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
-              >{{c}}</a
-            >
-            {% endfor %}
-          </div>
+
+          <div style="float: left; width: 55%">
+            <h2 class="article-title">
+              <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+            </h2>
+            <p class="article-title">
+              <a href="{{site.baseurl}}{{post.url}}">{{post.description}}</a>
+            </p>
+            <small class="date">{{post.date | date: "%b %Y"}}</small>
+            <div class="categories">
+              {% for c in post.categories %}
+              <a href="#!" data-base-url="{{site.baseurl}}" class="category"
+                >{{c}}</a
+              >
+              {% endfor %}
+            </div>
+        </div>
+        <div style="float: right; width: 40%">
+
+          <a href="{{site.baseurl}}{{post.url}}"> <img src="{{post.header}}" alt="Shuffle Focus Icon"> </a>
+          
+        </div>
+
+
+
+          
         </article>
         {%endfor%}
       </section>
