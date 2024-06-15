@@ -9,6 +9,9 @@ icon: /assets/images/ShuffleFocus-Icon.png
 ---
 ![Header Image](/assets/images/ShuffleFocus-Header.png)
 
+#### Repository
+<a style="font-size: medium" href="https://github.com/WilliamSmith107/Shuffle-Focus" title="GitHub Repo">GitHub Repo - Shuffle Focus</a>
+
 #### Features
 
 - **Pomodoro Timer** - 4x 25 min focus, 3x 5 min break, 1x 30 min break.
