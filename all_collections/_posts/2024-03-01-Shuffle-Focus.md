@@ -9,8 +9,10 @@ icon: /assets/images/ShuffleFocus-Icon.png
 ---
 ![Header Image](/assets/images/ShuffleFocus-Header.png)
 
+
 #### Repository
 <a style="font-size: medium" href="https://github.com/WilliamSmith107/Shuffle-Focus" title="GitHub Repo">GitHub Repo - Shuffle Focus</a>
+
 
 #### Features
 
@@ -20,10 +22,9 @@ icon: /assets/images/ShuffleFocus-Icon.png
 - **'Absurdity' Cards** - gives the user an absurd task before their break, loaded from JSON.
 - **Local Notifications** - notify the user of timer completion outside the app.
 
-#### Demo Video
-
 
 ###### Attributions
+
 - <a style="font-size: small" href="https://www.flaticon.com/free-icons/ostrich" title="ostrich icons">Ostrich icons created by Culmbio - Flaticon</a>
 - <a style="font-size: small" href="https://www.flaticon.com/free-icons/kangaroo" title="kangaroo icons">Kangaroo icons created by Freepik - Flaticon</a>
 - <a style="font-size: small" href="https://www.flaticon.com/free-icons/bacteria" title="bacteria icons">Bacteria icons created by geotatah - Flaticon</a>
